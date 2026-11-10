@@ -1,98 +1,95 @@
 # Customer Shopping Behavior Analysis
 
+An end-to-end data analytics project exploring customer purchasing behavior using Python, PostgreSQL, and Power BI. This project focuses on transforming raw retail data into actionable business insights through data cleaning, exploratory analysis, SQL queries, and interactive visualization.
+
 ## Project Overview
 
-This project explores customer shopping behavior to identify purchasing patterns, understand customer segments, and generate actionable business insights.
+The objective of this project was to analyze customer shopping behavior and identify patterns that could help a retail business better understand its customers, evaluate purchasing trends, and improve customer engagement.
 
-Using Python, Pandas, and PostgreSQL, I performed data cleaning, exploratory data analysis, and SQL-based analysis to investigate customer spending habits, product categories, purchasing frequency, customer satisfaction, and subscription behavior.
-
-The goal was to transform raw customer transaction data into meaningful insights that could help a retail business better understand its customers and make more informed decisions.
+The analysis explores customer demographics, purchasing habits, product categories, customer satisfaction, and subscription behavior.
 
 ## Tools & Technologies
 
-- **Python** – Data analysis and manipulation
-- **Pandas** – Data cleaning, preprocessing, and exploratory analysis
-- **PostgreSQL** – Data storage, querying, and business analysis
-- **SQLAlchemy** – Database connectivity
-- **Jupyter Notebook** – Analysis and documentation
-- **PowerPoint** – Presentation of findings and recommendations
+| Tool | Purpose |
+|---|---|
+| Python | Data analysis and manipulation |
+| Pandas | Data cleaning and exploratory data analysis |
+| PostgreSQL | Relational database analysis and SQL queries |
+| SQLAlchemy | Python-to-database connectivity |
+| Power BI | Interactive dashboard and data visualization |
+| Jupyter Notebook | Analysis, documentation, and visualizations |
 
 ## Project Workflow
 
-### 1. Data Cleaning & Preparation
-- Imported and inspected the customer shopping dataset.
-- Identified and handled missing values.
-- Used category-level median imputation to address missing review ratings.
-- Examined data types, consistency, and overall data quality.
-- Prepared the dataset for further analysis.
+### 1. Data Preparation & Cleaning
 
-### 2. Exploratory Data Analysis
-Used Python and Pandas to explore customer purchasing behavior, including:
-- Spending patterns across customer demographics.
+- Imported and inspected the customer shopping dataset.
+- Identified missing values and examined data quality.
+- Used category-level median imputation to handle missing review ratings.
+- Prepared the dataset for analysis and database integration.
+
+### 2. Exploratory Data Analysis (Python)
+
+Used Python and Pandas to investigate:
+
+- Customer purchasing patterns and spending behavior.
 - Revenue distribution across product categories.
-- Customer purchasing frequency.
-- Review ratings and customer satisfaction.
+- Customer demographics and purchasing frequency.
+- Customer review ratings.
 - Differences in purchasing behavior between customer segments.
 
-### 3. SQL Analysis
-Loaded the cleaned dataset into PostgreSQL to perform structured business analysis.
+### 3. SQL Analysis (PostgreSQL)
 
-SQL queries were used to investigate:
+Loaded the prepared dataset into PostgreSQL to perform structured business analysis.
+
+Queries explored:
+
 - Revenue by customer demographics.
-- Customer purchasing patterns.
-- Subscription rates across customer segments.
-- Differences between frequent and less frequent purchasers.
+- Purchasing frequency and customer segments.
+- Overall subscription adoption.
+- Subscription rates among frequent purchasers.
 - Relationships between customer characteristics and purchasing behavior.
 
-### 4. Business Insights & Recommendations
-Translated analytical findings into potential business recommendations, focusing on:
-- Improving customer retention.
-- Understanding high-value customer segments.
-- Evaluating subscription adoption.
-- Identifying opportunities to improve customer engagement.
-- Supporting more informed marketing and sales decisions.
+### 4. Data Visualization (Power BI)
 
-## Repository Structure
+Developed an interactive dashboard to communicate the results of the analysis and make customer behavior easier to explore.
 
-```text
-Customer-Shopping-Behavior/
-│
-├── data/
-│   └── customer_shopping_behavior.csv
-│
-├── notebooks/
-│   └── customer_analysis.ipynb
-│
-├── presentation/
-│   └── customer_analysis.pdf
-│
-├── README.md
-└── requirements.txt
-```
+The dashboard provides a visual overview of purchasing trends, customer segments, and key business metrics.
 
-*File names and folders may be adjusted to match the final repository.*
+### 5. Business Insights
 
-## Key Skills Demonstrated
+The analytical findings were used to develop recommendations related to:
+
+- Customer retention and engagement.
+- Customer segmentation.
+- Subscription adoption.
+- Purchasing behavior and revenue trends.
+
+## Project Files
+
+| File | Description |
+|---|---|
+| [Jupyter Notebook](customer_behavior.ipynb) | Python analysis, data preparation, and visualizations |
+| [Notebook PDF](customer_behavior.pdf) | PDF version of the Jupyter Notebook |
+| [Power BI Dashboard](customer_behavior_dashboard.pbix) | Interactive Power BI report |
+| [Project Presentation](Customer-Shopping-Behavior-Analysis.pptx) | Presentation of the project and findings |
+| [Dataset](customer_shopping_behavior.csv) | Original customer shopping dataset |
+
+## Skills Demonstrated
 
 - Data cleaning and preprocessing
 - Exploratory data analysis (EDA)
-- Python programming
-- Pandas data manipulation
+- Python and Pandas
 - SQL querying and aggregation
-- PostgreSQL database management
-- Python-to-database integration
-- Business metric development
-- Data interpretation and communication
-- Translating analytical findings into business recommendations
-
-## Project Deliverables
-
-- **Jupyter Notebook:** Detailed analysis, Python code, and visualizations.
-- **SQL Analysis:** Database queries used to investigate customer behavior.
-- **Project Presentation:** Summary of findings and business recommendations.
+- PostgreSQL database integration
+- Data visualization and dashboard development
+- Business metric analysis
+- Communicating analytical findings
+- Translating data into business recommendations
 
 ## Conclusion
 
-This project demonstrates an end-to-end analytical workflow, from preparing raw data to querying a relational database and communicating business insights.
+This project demonstrates an end-to-end data analytics workflow, combining Python, SQL, and Power BI to investigate customer purchasing behavior.
 
+It highlights the process of taking raw data, preparing it for analysis, extracting meaningful patterns, and presenting findings in a format that can support business decision-making.
 It reflects my ability to use analytical tools to investigate business questions, interpret customer behavior, and translate data into actionable recommendations.
